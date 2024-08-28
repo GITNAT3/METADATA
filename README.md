@@ -27,3 +27,10 @@ Document ID                     : uuid:29EE37EB-C813-49A2-9D53-E64B61E5B537
 Instance ID                     : uuid:29EE37EB-C813-49A2-9D53-E64B61E5B537
 Author                          : DHC. JAIDER OSPINA NAVAS
 PS C:\Users\CDTi Laboratorios\Downloads\exiftool-12.93_64>
+
+----------------------------------------COMANDOS PARA CONVERTIR ARCHIVO EN FORMATO CSV, HTML Y TXT-----------------------------------------------
+PS C:\Users\CDTi Laboratorios\Downloads\exiftool-12.93_64> .\exiftool.exe -r -all -csv .\Taller_clase_FOCA.pdf > Taller_Foca.csv
+PS C:\Users\CDTi Laboratorios\Downloads\exiftool-12.93_64> .\exiftool.exe -r -all -txt .\Taller_clase_FOCA.pdf > Taller_Foca.txt
+PS C:\Users\CDTi Laboratorios\Downloads\exiftool-12.93_64> .\exiftool.exe -r -all -htmldump .\Taller_clase_FOCA.pdf > Taller_Foca.html
+![image](https://github.com/user-attachments/assets/fdf4ed82-34a6-48eb-a962-530b1317de7f)
+
